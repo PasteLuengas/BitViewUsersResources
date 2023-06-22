@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <title>Bitview Users Resources</title>
+</head>
+<body>    
+    <section class="hero is-fullheight has-background-info">
+        <div class="container m-6">
+            <div class="box">
+                <h1 class="title is-1">BitView Users Resources</h1>
+                <h4 class="subtitle is-4">Get media from BitView Users</h4>
+                <div class="form">
+                    <form method="post">
+                        <div class="formWidgets">
+                            <input type="text" class="input" placeholder="Username or Channel Link" required id="userInput">
+                            <input type="button" class="button is-link is-info" value="Get Resources" id="button">
+                        </div>
+                        <small id="error">a</small>
+                    </form>
+                </div>
+                <br><br>
+                <div id="resources">
+                    <h3 class="title is-3">Media</h3>
+                    <div class="columns">
+                        <div class="column">
+                            <h5 class="title is-5">Profile Image</h5>
+                            <img id="profileImage" alt="The user has no profile image">
+                        </div>
+                        <div class="column">
+                            <h5 class="title is-5">Background Image</h5>
+                            <img id="backgroundImage" alt="The user has no Background image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>

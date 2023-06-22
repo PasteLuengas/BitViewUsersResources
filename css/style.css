@@ -1,0 +1,30 @@
+formWidgets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#userInput {
+    width: 60%;
+}
+
+#button {
+    min-width: 20%;
+}
+
+#resources {
+    display: none;
+}
+
+#error {
+    color: red;
+    display: none;
+}
+
+#profileImage {
+    width: 500px;
+}
+
+#backgroundImage {
+    width: 500px;
+}
